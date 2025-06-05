@@ -10,7 +10,7 @@ class Purchase extends Model
     protected $primaryKey = 'purchase_id';
 
     protected $fillable = [
-        'customer_id',    // <--- TAMBAHKAN INI JIKA BELUM ADA
+        'customer_id',  
         'purchase_date',
         'total_price',
     ];
